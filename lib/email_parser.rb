@@ -14,7 +14,8 @@ class EmailParser
   end
 
   def parse
-    @@email_array.join(" ").gsub(" ", ",").split.join.gsub(",,", ",").split(",").uniq
+    @new = @@email_array.join(" ").gsub(" ", ",").split.join.gsub(",,", ",").split(",").uniq
+    @new
   end
 
 end
