@@ -17,8 +17,3 @@ class EmailParser
   end
 
 end
-
-EmailParser.new("avi@test.com, otheravi@test.com").parse
-
-#EmailParser.new("avi@test.com, avi@test.com").parse
-#=> ["avi@test.com"]
