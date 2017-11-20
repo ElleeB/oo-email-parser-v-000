@@ -2,14 +2,14 @@
 class EmailParser
 
   attr_accessor :email_set
-  @email_array = []
+  @email_array = [email_set]
 
   def self.all
     @email_array
   end
 
-  def initialize(emails)
-    @email_array << emails
+  def initialize(email_set)
+    @email_set = email_set
   end
 
   def parse
