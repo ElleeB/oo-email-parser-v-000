@@ -20,3 +20,4 @@ class EmailParser
 end
 
 EmailParser.new("avi@test.com, avi@test.com").parse
+#=> ["avi@test.com"]
