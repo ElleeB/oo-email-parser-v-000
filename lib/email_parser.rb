@@ -2,11 +2,10 @@
 class EmailParser
 
   attr_accessor :email_set
-
   @email_array = []
 
   def self.all
-    @@email_array
+    @email_array
   end
 
   def initialize(emails)
